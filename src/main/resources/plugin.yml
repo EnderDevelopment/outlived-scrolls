@@ -1,0 +1,16 @@
+name: RiftScrolls
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  scroll:
+    description: Opens the Rift Scroll selection menu.
+    usage: /scroll [list|give <player> <type>]
+    permission: riftscrolls.use
+permissions:
+  riftscrolls.use:
+    description: Use and activate scrolls.
+    default: true
+  riftscrolls.admin:
+    description: Give scrolls to players.
+    default: op
